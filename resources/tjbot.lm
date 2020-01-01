@@ -1,0 +1,90 @@
+Language model created by QuickLM on Mon Dec 30 16:27:23 EST 2019
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 5 sentences and 19 words
+
+\data\
+ngram 1=19
+ngram 2=25
+ngram 3=23
+
+\1-grams:
+-1.1206 </s> -0.3010
+-1.1206 <s> -0.2449
+-1.8195 ANTHEM -0.2668
+-1.8195 ARE -0.2944
+-1.8195 HELLO -0.2668
+-1.8195 HOW -0.2944
+-1.8195 IN -0.2944
+-1.5185 IS -0.2877
+-1.8195 IT -0.2668
+-1.1206 LUCY -0.2374
+-1.8195 NATIONAL -0.2944
+-1.8195 PLAY -0.2944
+-1.8195 PLEASE -0.2944
+-1.8195 PUNE -0.2668
+-1.8195 THE -0.2944
+-1.8195 TIME -0.2877
+-1.8195 WEATHER -0.2944
+-1.5185 WHAT -0.2808
+-1.8195 YOU -0.2668
+
+\2-grams:
+-1.0000 <s> HELLO 0.0000
+-0.5229 <s> LUCY -0.1461
+-1.0000 <s> WHAT -0.1761
+-0.3010 ANTHEM </s> -0.3010
+-0.3010 ARE YOU 0.0000
+-0.3010 HELLO LUCY -0.2041
+-0.3010 HOW ARE 0.0000
+-0.3010 IN PUNE 0.0000
+-0.6021 IS IT 0.0000
+-0.6021 IS THE 0.0000
+-0.3010 IT LUCY -0.2041
+-0.6990 LUCY </s> -0.3010
+-1.0000 LUCY HOW 0.0000
+-1.0000 LUCY PLEASE 0.0000
+-1.0000 LUCY WHAT -0.1761
+-0.3010 NATIONAL ANTHEM 0.0000
+-0.3010 PLAY NATIONAL 0.0000
+-0.3010 PLEASE PLAY 0.0000
+-0.3010 PUNE </s> -0.3010
+-0.3010 THE WEATHER 0.0000
+-0.3010 TIME IS -0.1761
+-0.3010 WEATHER IN 0.0000
+-0.6021 WHAT IS -0.1761
+-0.6021 WHAT TIME 0.0000
+-0.3010 YOU </s> -0.3010
+
+\3-grams:
+-0.3010 <s> HELLO LUCY
+-0.7782 <s> LUCY HOW
+-0.7782 <s> LUCY PLEASE
+-0.7782 <s> LUCY WHAT
+-0.3010 <s> WHAT TIME
+-0.3010 ARE YOU </s>
+-0.3010 HELLO LUCY </s>
+-0.3010 HOW ARE YOU
+-0.3010 IN PUNE </s>
+-0.3010 IS IT LUCY
+-0.3010 IS THE WEATHER
+-0.3010 IT LUCY </s>
+-0.3010 LUCY HOW ARE
+-0.3010 LUCY PLEASE PLAY
+-0.3010 LUCY WHAT IS
+-0.3010 NATIONAL ANTHEM </s>
+-0.3010 PLAY NATIONAL ANTHEM
+-0.3010 PLEASE PLAY NATIONAL
+-0.3010 THE WEATHER IN
+-0.3010 TIME IS IT
+-0.3010 WEATHER IN PUNE
+-0.3010 WHAT IS THE
+-0.3010 WHAT TIME IS
+
+\end\

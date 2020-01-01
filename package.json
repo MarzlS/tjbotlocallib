@@ -1,0 +1,38 @@
+{
+  "name": "tjbotlocal",
+  "description": "Node.js library for using TJBot with Pocketsphinx for local keyword detection",
+  "version": "1.0.0",
+  "author": "MarzlS <mstreile@gmx.de>",
+  "bugs": {
+    "url": "https://github.com/MarzlS/tjbotlocallib/issues"
+  },
+  "dependencies": {
+    "assert": "^1.4.1",
+    "mic": "^2.1.2",
+    "pocketsphinx": "github:cmusphinx/node-pocketsphinx",
+    "sound-player": "^1.0.4",
+    "tjbot": "latest",
+    "winston": "^2.3.1"
+  },
+  "engines": {
+    "node": ">=8.17.0"
+  },
+  "homepage": "https://github.com/MarzlS/tjbotlocallib",
+  "keywords": [
+    "tjbot",
+    "pocketsphinx"
+  ],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MarzlS/tjbotlocallib.git"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
